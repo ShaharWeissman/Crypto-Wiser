@@ -1,0 +1,90 @@
+.parallax-header{
+  height: 400px;
+  background:#000000;
+  background: linear-gradient(
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.8)
+  ),
+  url(/images/tile.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row{
+  margin: 30px 0;
+}
+.header-content{
+  padding: 100px 0 150px 0;
+}
+.card{
+  margin: 40px 0;
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+.card-body{
+  padding: 20px !important;
+}
+#coinThumb{
+  width: 50px;
+  height: auto;
+}
+.content{
+  margin-top: -80px;
+  background: #fff;
+  box-shadow: 0 0 20px -6px rgba(0,0, 0,0.2);
+}
+
+.content .left{
+  padding-top: 20px;
+}
+
+.content .right{
+  padding-top: 0;
+  padding-right: 20px
+}
+#more-info{
+  padding-left: 50px;
+  text-align: left;
+}
+.text-justify{
+  text-align: justify;
+}
+.content .bottom{
+  background: #dc3545;
+  padding: 20px;
+}
+
+.primary-color{
+  color: #dc3545;
+}
+.btn-outline-primary{
+  border-color: #7290c4;
+}
+.btn-outline-primary:hover{
+  border-color: #20aee5;
+  background-color: #37517e;
+
+}
+
+.btn-primary {
+  background-color: #37517e;
+  border-color: #37517e;
+}
+
+.btn-primary:hover {
+  background-color: #5e9eb8;
+  border-color: #20aee5;
+  color: #fff;
+}
+
+.navbar{
+  background: #f3f3f3;
+
+}
+
+#more-info{
+  padding-top: 12px;
+  padding-left: 12px;
+}
